@@ -1,4 +1,3 @@
-// nếu chỉ pass <button onClick={onDeleteItems}>❌</button> react sẽ chỉ pass event object chứ không có pass id
 export default function Item({ item, onDeleteItems, onToggleItems }) {
   return (
     <li>
@@ -16,3 +15,4 @@ export default function Item({ item, onDeleteItems, onToggleItems }) {
     </li>
   );
 }
+
